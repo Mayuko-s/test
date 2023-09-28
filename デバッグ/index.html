@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>デバッグ</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+function toOneDimension(previousValue, currentValue){
+    return previousValue.concat(currentValue);
+}
+
+//修正しない
+var sampleArrayA = [
+    ['A1','A2','A3'],
+    ['B1','B2','B3'],
+    ['C1','C2','C3']
+];
+
+//sampleArrayAの値をコンソールに表示
+console.log(sampleArrayA);
+
+//配列の値を逆順にする
+sampleArrayA.reverse();
+//sampleArrayAの値をコンソールに表示
+console.log(sampleArrayA);
+    
+
+//sampleArrayAの累積値
+var sampleArrayB = sampleArrayA.reduce(toOneDimension);
+
+//sampleArrayBの値をコンソールに表示
+console.log(sampleArrayB);
+    
+
+//修正しない
+for(var counterVar = 0; counterVar < sampleArrayB.length; counterVar++){
+    
+    //counterVarの値をコンソールに表示
+    console.log(counterVar);
+    
+    document.write('sampleArrayB[' + counterVar + ']:');
+    document.write(sampleArrayB[counterVar]);
+    document.write('<br>');
+    
+} 
+
+    
+    
+    
+</script>
+    
+</body>
+
+</html>
