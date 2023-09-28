@@ -1,0 +1,134 @@
+body{
+    font-family: "Hiragino Kaku Gothic","ProN","メイリオ",sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+}
+
+header img{
+    width: 400px;
+}
+
+header ul{
+    float: left;
+    width: 100%;
+    line-height: 40px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+header ul li{
+    float:left;
+    list-style: none;
+    padding-right: 20px;
+    color:white;
+    font-size: 16px;
+}
+
+main{
+    clear:both;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:100%;
+}
+
+.left{
+    float:left;
+    width:70%;
+}
+
+.left h1{
+    margin: 0 auto;
+    border-left: 5px solid gray;
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.nyuryoku{
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border: 3px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+.nyuryoku h2{
+    border-left: 5px solid red;
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.nyuryoku div{
+    padding: 20px;
+}
+
+.nyuryoku label{
+    font-size: 20px;
+}
+
+.submit{
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    border-bottom: 2px solid darkgray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.kiji{
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border: 3px solid #ebebeb;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.kiji h3{
+    border-bottom: 3px solid lightgray;
+}
+
+.handlename{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.right{
+    float:left;
+    width:28%;
+    margin-left: 5px;
+}
+
+.right h2{
+    font-size:28px;
+    border-bottom: 2px solid gray;
+}
+
+.right li{
+    font-size: 22px;
+    list-style: none;
+    text-indent: 1em;
+}
+
+footer{
+    clear:left;
+    width: 100%;
+    margin-top: auto;
+    color:white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+    font-size:16px;
+}
