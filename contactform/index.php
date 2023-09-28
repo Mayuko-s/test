@@ -49,6 +49,7 @@
         <div>
             <label>コメント</label>
             <br>
+            <!--textareaの場合は要素の間にphp文を入れる-->
             <textarea cols="35" rows="7" name="comments" <?php if(!empty($_POST['comments'])){echo $_POST['comments'];} ?> 
             required></textarea>
         </div> 
